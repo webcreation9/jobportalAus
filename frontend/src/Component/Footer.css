@@ -1,0 +1,242 @@
+/* ================= Footer Main Container ================= */
+.footer {
+  background-color: #0b1b36; /* Deep navy blue matching the screenshot */
+  color: #ffffff;
+  padding: 60px 20px 20px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ================= Top Section (Grid) ================= */
+.footer-top {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+/* Brand Column Specifics */
+.brand-col {
+  padding-right: 20px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+}
+
+.logo-aus {
+  color: #ffffff;
+}
+
+.logo-careers {
+  color: #3b82f6; /* Bright blue matching the navbar */
+}
+
+.footer-tagline {
+  font-size: 14px;
+  color: #94a3b8; /* Light slate gray */
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.footer-description {
+  font-size: 14px;
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  max-width: 300px;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #3b82f6;
+  transform: translateY(-3px);
+}
+
+.social-icons svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Link Columns */
+.footer-heading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ffffff;
+  position: relative;
+}
+
+/* Optional: Small underline accent for headings */
+.footer-heading::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #3b82f6;
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-links li a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #3b82f6;
+  padding-left: 4px;
+}
+
+/* ================= Bottom Section ================= */
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.copyright-text {
+  font-size: 14px;
+  color: #94a3b8;
+  margin: 0;
+}
+
+.footer-bottom-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.footer-bottom-links a {
+  color: #94a3b8;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom-links a:hover {
+  color: #ffffff;
+}
+
+.divider {
+  color: #475569;
+}
+
+/* ================= Responsive Design ================= */
+
+/* Tablet View (Max-width: 1024px) */
+@media (max-width: 1024px) {
+  .footer-top {
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 30px;
+  }
+  
+  .brand-col {
+    grid-column: 1 / -1; /* Span full width on tablet */
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .footer-description {
+    max-width: 100%;
+  }
+}
+
+/* Mobile View (Max-width: 768px) */
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 16px 20px;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .brand-col {
+    grid-column: 1 / -1;
+  }
+
+  .footer-heading::after {
+    margin-top: 6px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+/* Small Mobile View (Max-width: 480px) */
+@media (max-width: 480px) {
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-logo {
+    font-size: 24px;
+  }
+
+  .social-icons a {
+    width: 32px;
+    height: 32px;
+  }
+
+  .social-icons svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .footer-bottom-links {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .divider {
+    display: none; /* Hide the | divider on small screens */
+  }
+}
