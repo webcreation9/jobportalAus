@@ -1,0 +1,167 @@
+{
+  "categories": [
+    { "slug": "career",        "name": "Career",        "icon": "briefcase", "color": "#3b82f6" },
+    { "slug": "job-hunt",      "name": "Job Hunt",      "icon": "search",    "color": "#0ea5e9" },
+    { "slug": "resume",        "name": "Resume",        "icon": "file",      "color": "#84cc16" },
+    { "slug": "interview",     "name": "Interview",     "icon": "chat",      "color": "#ef4444" },
+    { "slug": "salary",        "name": "Salary",        "icon": "dollar",    "color": "#f59e0b" },
+    { "slug": "workplace",     "name": "Workplace",     "icon": "building",  "color": "#10b981" },
+    { "slug": "education",     "name": "Education",     "icon": "book",      "color": "#f97316" },
+    { "slug": "visa",          "name": "Visa & Migration", "icon": "globe",  "color": "#8b5cf6" }
+  ],
+  "articles": [
+    {
+      "slug": "how-to-job-hunt-effectively-in-australia",
+      "title": "How to Job Hunt Effectively in Australia",
+      "excerpt": "A step-by-step guide to finding the right role faster, from tailoring your resume to nailing the follow-up.",
+      "category": "job-hunt",
+      "categoryName": "Job Hunt",
+      "author": "Emma Wilson",
+      "authorImage": "https://randomuser.me/api/portraits/women/44.jpg",
+      "date": "2024-11-12",
+      "readTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&q=80",
+      "featured": true,
+      "tags": ["job search", "australia", "career"],
+      "content": [
+        "Job hunting in Australia has changed dramatically over the last few years. Employers now expect tailored applications, and the hidden job market accounts for a large share of hires.",
+        "Start by clarifying what you actually want. Write down three must-haves and three deal-breakers. This filter saves hours of applying for roles that aren't a fit.",
+        "Next, tailor your resume for each role. Mirror the language in the job ad, especially the key skills listed in the first paragraph.",
+        "Finally, follow up. A polite email a week after applying often surfaces opportunities that were otherwise overlooked."
+      ]
+    },
+    {
+      "slug": "resume-tips-that-get-interviews",
+      "title": "10 Resume Tips That Actually Get Interviews",
+      "excerpt": "Recruiters spend 6–8 seconds on the first scan. Here's how to make every one of them count.",
+      "category": "resume",
+      "categoryName": "Resume",
+      "author": "Daniel Lee",
+      "authorImage": "https://randomuser.me/api/portraits/men/32.jpg",
+      "date": "2024-11-08",
+      "readTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80",
+      "featured": false,
+      "tags": ["resume", "cv", "ats"],
+      "content": [
+        "Keep it to two pages unless you're an academic. Recruiters value clarity over completeness.",
+        "Lead with an impact summary, not an objective statement. 'Marketing leader who grew revenue 40% YoY' beats 'Seeking a challenging role'.",
+        "Use ATS-friendly formatting: standard headings, no tables, no columns."
+      ]
+    },
+    {
+      "slug": "common-interview-questions-and-answers",
+      "title": "The 15 Most Common Interview Questions (and How to Answer)",
+      "excerpt": "Prepare once, walk in confident. These are the questions 90% of Australian interviewers ask.",
+      "category": "interview",
+      "categoryName": "Interview",
+      "author": "Priya Sharma",
+      "authorImage": "https://randomuser.me/api/portraits/women/68.jpg",
+      "date": "2024-11-05",
+      "readTime": "8 min read",
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&q=80",
+      "featured": true,
+      "tags": ["interview", "star method"],
+      "content": [
+        "Tell me about yourself. Two minutes max: current role, one career highlight, why this job.",
+        "Why do you want to work here? Reference something specific about the company — not just 'great culture'.",
+        "What's your biggest weakness? Pick a real one and show the corrective action."
+      ]
+    },
+    {
+      "slug": "negotiate-your-salary-confidently",
+      "title": "How to Negotiate Your Salary Confidently",
+      "excerpt": "Most candidates leave money on the table. Here's a calm, evidence-based script that works.",
+      "category": "salary",
+      "categoryName": "Salary",
+      "author": "Michael O'Brien",
+      "authorImage": "https://randomuser.me/api/portraits/men/45.jpg",
+      "date": "2024-10-30",
+      "readTime": "7 min read",
+      "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+      "featured": false,
+      "tags": ["salary", "negotiation"],
+      "content": [
+        "Never give the first number. Ask: 'What range has been budgeted for this role?'",
+        "Anchor with market data. SEEK, Hays, and Robert Half publish free salary guides.",
+        "Negotiate the package, not just the base — super, WFH days, and training budgets count."
+      ]
+    },
+    {
+      "slug": "changing-careers-at-any-age",
+      "title": "Changing Careers at Any Age",
+      "excerpt": "You're never too old to pivot. A practical roadmap for a career change in Australia.",
+      "category": "career",
+      "categoryName": "Career",
+      "author": "Emily Watson",
+      "authorImage": "https://randomuser.me/api/portraits/women/12.jpg",
+      "date": "2024-10-25",
+      "readTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80",
+      "featured": false,
+      "tags": ["career change", "upskilling"],
+      "content": [
+        "Audit your transferable skills. Most career changers underestimate what already counts.",
+        "Test the new field with a side project, volunteering, or a short course before you leap.",
+        "Rebuild your network. Informational interviews open more doors than applications."
+      ]
+    },
+    {
+      "slug": "remote-work-rights-in-australia",
+      "title": "Remote Work Rights in Australia: What You Need to Know",
+      "excerpt": "WFH isn't just a perk — it's increasingly protected. Here's what the law says.",
+      "category": "workplace",
+      "categoryName": "Workplace",
+      "author": "Sophia Nguyen",
+      "authorImage": "https://randomuser.me/api/portraits/women/25.jpg",
+      "date": "2024-10-20",
+      "readTime": "4 min read",
+      "image": "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=800&q=80",
+      "featured": false,
+      "tags": ["remote work", "fair work"],
+      "content": [
+        "The Fair Work Act now includes a right to request flexible arrangements for many employees.",
+        "Employers can refuse on reasonable business grounds — but they must respond in writing.",
+        "Keep records of your requests and responses."
+      ]
+    },
+    {
+      "slug": "visa-sponsorship-explained",
+      "title": "Visa Sponsorship Explained for Job Seekers",
+      "excerpt": "Which Australian visas allow sponsorship, and how to spot employers who actually offer it.",
+      "category": "visa",
+      "categoryName": "Visa & Migration",
+      "author": "David Kumar",
+      "authorImage": "https://randomuser.me/api/portraits/men/22.jpg",
+      "date": "2024-10-15",
+      "readTime": "9 min read",
+      "image": "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=800&q=80",
+      "featured": false,
+      "tags": ["visa", "sponsorship", "482"],
+      "content": [
+        "The TSS 482 visa is the most common temporary sponsored visa.",
+        "Employers must be approved sponsors — check the Home Affairs sponsor list.",
+        "Ask recruiters directly: 'Does this role come with visa sponsorship?'"
+      ]
+    },
+    {
+      "slug": "upskilling-for-the-future-of-work",
+      "title": "Upskilling for the Future of Work",
+      "excerpt": "The skills Australian employers will pay a premium for in 2025 and beyond.",
+      "category": "education",
+      "categoryName": "Education",
+      "author": "Olivia Brown",
+      "authorImage": "https://randomuser.me/api/portraits/women/33.jpg",
+      "date": "2024-10-10",
+      "readTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
+      "featured": false,
+      "tags": ["skills", "training"],
+      "content": [
+        "AI literacy is quickly becoming baseline, not bonus.",
+        "Soft skills — communication, adaptability, judgment — are the hardest to automate.",
+        "Micro-credentials from TAFE and universities are a fast, affordable route."
+      ]
+    }
+  ]
+}

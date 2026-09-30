@@ -1,0 +1,70 @@
+.advice-category-page {
+  margin-top: 60px;
+  background: #f8faff;
+  min-height: 100vh;
+  padding-bottom: 4rem;
+}
+
+.advice-category-hero {
+  background: linear-gradient(135deg, #0066cc 0%, #004a99 100%);
+  color: #fff;
+  padding: 3rem 0 2.5rem;
+}
+
+.advice-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+  flex-wrap: wrap;
+}
+
+.advice-breadcrumb a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.advice-breadcrumb a:hover { opacity: 1; text-decoration: underline; }
+.advice-breadcrumb .current { font-weight: 600; }
+
+.advice-category-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.5px;
+}
+
+.advice-category-subtitle {
+  font-size: 1rem;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.advice-category-body {
+  padding: 2.5rem 0 0;
+}
+
+.advice-empty {
+  text-align: center;
+  color: #777;
+  padding: 3rem 1rem;
+  font-size: 1rem;
+}
+
+/* reuse grid from landing */
+.advice-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .advice-category-page { margin-top: 55px; }
+  .advice-category-hero { padding: 2rem 0 1.8rem; }
+  .advice-category-title { font-size: 1.6rem; }
+  .advice-category-subtitle { font-size: 0.88rem; }
+  .advice-grid { grid-template-columns: 1fr; gap: 1rem; }
+}

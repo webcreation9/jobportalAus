@@ -1,0 +1,189 @@
+.career-advice-page {
+  margin-top: 60px;
+  background: #f8faff;
+  min-height: 100vh;
+  padding-bottom: 4rem;
+}
+
+.advice-loading {
+  margin-top: 80px;
+  text-align: center;
+  color: #666;
+  padding: 4rem 1rem;
+}
+
+/* Hero */
+.advice-hero {
+  background: linear-gradient(135deg, #0066cc 0%, #004a99 100%);
+  color: #fff;
+  padding: 4rem 0 3.5rem;
+  text-align: center;
+}
+
+.advice-hero-title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  margin: 0 0 0.8rem;
+  letter-spacing: -0.5px;
+}
+
+.advice-hero-subtitle {
+  font-size: 1.05rem;
+  max-width: 640px;
+  margin: 0 auto 2rem;
+  opacity: 0.92;
+  line-height: 1.6;
+}
+
+.advice-search {
+  max-width: 560px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: #fff;
+  border-radius: 12px;
+  padding: 6px 6px 6px 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.advice-search svg {
+  width: 20px;
+  height: 20px;
+  color: #8a8a8a;
+  flex-shrink: 0;
+}
+
+.advice-search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 12px 0;
+  color: #1a1a1a;
+  background: transparent;
+}
+
+/* Section heading */
+.advice-section-heading {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 1.5rem;
+}
+
+.advice-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.advice-view-all {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: transform 0.3s ease;
+}
+
+.advice-view-all:hover {
+  transform: translateX(4px);
+}
+
+/* Sections */
+.advice-categories,
+.advice-featured,
+.advice-latest,
+.advice-popular {
+  padding: 3rem 0 0;
+}
+
+/* Grid */
+.advice-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Popular list */
+.advice-popular-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+.advice-popular-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.2rem 1.3rem;
+  background: #fff;
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid rgba(0, 102, 204, 0.08);
+  transition: all 0.3s ease;
+}
+
+.advice-popular-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0, 102, 204, 0.12);
+  border-color: rgba(0, 102, 204, 0.3);
+}
+
+.advice-popular-index {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #cfe0f7;
+  line-height: 1;
+}
+
+.advice-popular-item h4 {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+  color: #1a1a1a;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.advice-popular-item:hover h4 {
+  color: #0066cc;
+}
+
+.advice-popular-meta {
+  font-size: 0.78rem;
+  color: #7a7a7a;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .advice-hero-title { font-size: 2.2rem; }
+  .advice-hero-subtitle { font-size: 0.95rem; }
+  .advice-section-heading { font-size: 1.35rem; }
+}
+
+@media (max-width: 600px) {
+  .career-advice-page { margin-top: 55px; }
+  .advice-hero { padding: 3rem 0 2.5rem; }
+  .advice-hero-title { font-size: 1.8rem; }
+  .advice-hero-subtitle { font-size: 0.88rem; margin-bottom: 1.5rem; }
+  .advice-search { padding: 4px 4px 4px 14px; }
+  .advice-search input { font-size: 0.9rem; padding: 10px 0; }
+  .advice-section-heading { font-size: 1.2rem; margin-bottom: 1.2rem; }
+  .advice-categories,
+  .advice-featured,
+  .advice-latest,
+  .advice-popular { padding: 2.2rem 0 0; }
+  .advice-grid { gap: 1rem; grid-template-columns: 1fr; }
+  .advice-popular-list { grid-template-columns: 1fr; }
+  .advice-popular-index { font-size: 1.2rem; }
+  .advice-popular-item h4 { font-size: 0.92rem; }
+}
+
+@media (max-width: 380px) {
+  .advice-hero-title { font-size: 1.55rem; }
+  .advice-popular-item { padding: 1rem; gap: 0.7rem; }
+}

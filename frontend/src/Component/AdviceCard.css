@@ -1,0 +1,161 @@
+.advice-card {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 102, 204, 0.06);
+  transition: all 0.35s ease;
+  height: 100%;
+}
+
+.advice-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0, 102, 204, 0.15);
+  border-color: rgba(0, 102, 204, 0.25);
+}
+
+.advice-card-image-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #eef4ff;
+}
+
+.advice-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.advice-card:hover .advice-card-image {
+  transform: scale(1.06);
+}
+
+.advice-card-category {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(0, 102, 204, 0.95);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.advice-card-body {
+  padding: 1.2rem 1.3rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.advice-card-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 0.6rem;
+  line-height: 1.35;
+  transition: color 0.3s ease;
+}
+
+.advice-card:hover .advice-card-title {
+  color: #0066cc;
+}
+
+.advice-card-excerpt {
+  font-size: 0.88rem;
+  color: #5a5a5a;
+  line-height: 1.6;
+  margin: 0 0 1rem;
+  flex: 1;
+}
+
+.advice-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid #eef4ff;
+}
+
+.advice-card-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.advice-card-meta-text {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  color: #7a7a7a;
+}
+
+.advice-card-author {
+  font-weight: 600;
+  color: #3a3a3a;
+}
+
+.advice-card-dot {
+  color: #b0b0b0;
+}
+
+/* Featured card: horizontal on desktop */
+.advice-card-featured {
+  flex-direction: row;
+}
+
+.advice-card-featured .advice-card-image-wrap {
+  width: 55%;
+  aspect-ratio: auto;
+  min-height: 340px;
+}
+
+.advice-card-featured .advice-card-body {
+  width: 45%;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.advice-card-featured .advice-card-title {
+  font-size: 1.6rem;
+}
+
+.advice-card-featured .advice-card-excerpt {
+  font-size: 1rem;
+}
+
+@media (max-width: 900px) {
+  .advice-card-featured {
+    flex-direction: column;
+  }
+  .advice-card-featured .advice-card-image-wrap,
+  .advice-card-featured .advice-card-body {
+    width: 100%;
+  }
+  .advice-card-featured .advice-card-image-wrap {
+    aspect-ratio: 16 / 10;
+    min-height: 0;
+  }
+  .advice-card-featured .advice-card-title {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .advice-card-body { padding: 1rem; }
+  .advice-card-title { font-size: 0.98rem; }
+  .advice-card-excerpt { font-size: 0.82rem; }
+  .advice-card-category { font-size: 0.62rem; padding: 3px 8px; }
+}
